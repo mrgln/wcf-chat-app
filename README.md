@@ -11,4 +11,5 @@ This is a simple client-server (WCF&WPF) application
 * Start your server or run the `ChatHost.exe` as adminstrator
 * Start two or more clients and connect users
 
-![](https://wmpics.pics/di-WWAY.png)
+![](https://wmpics.pics/di-WU3O.png)
+![](https://wmpics.pics/di-JT95.png)
