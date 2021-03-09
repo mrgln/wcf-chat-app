@@ -5,22 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChatClient"
         mc:Ignorable="d"
-        Title="Chat" Height="449.333" Width="767" Loaded="Window_Loaded" Closing="Window_Closing" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Padding="0" Background="#FFFFEBEB">
+        Title="Chat" Height="449.333" Loaded="Window_Loaded" Closing="Window_Closing" WindowStartupLocation="CenterScreen" Padding="0" Background="#FF00282F" Width="772">
     <Window.Foreground>
         <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
             <GradientStop Color="Black" Offset="0"/>
             <GradientStop Color="White" Offset="1"/>
         </LinearGradientBrush>
     </Window.Foreground>
-    <Grid Margin="38,0,22.667,0.333">
+    <Grid Margin="10,18,3.333,1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="401" Width="752">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <TextBox x:Name="textBoxUsername"  HorizontalAlignment="Left" Height="49" Margin="9.333,10,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="391" FontSize="19" VerticalContentAlignment="Center"/>
-        <Button  x:Name ="bConnectDisconnect" Click="Button_Click" Content="Connect" HorizontalAlignment="Left" Margin="433.333,10,0,0" VerticalAlignment="Top" Width="239" Height="49" FontSize="19" Background="White"/>
-        <ListBox x:Name="listBoxChat" HorizontalAlignment="Left" Height="233" Margin="9.333,64,0,0" VerticalAlignment="Top" Width="663" FontSize="13"/>
-        <TextBox x:Name="textBoxMessage" HorizontalAlignment="Left" Height="89" Margin="9.333,302,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="663" KeyDown="textBoxMessage_KeyDown" FontSize="14"/>
+        <TextBox x:Name="textBoxUsername"  HorizontalAlignment="Left" Height="49" Margin="9.333,10,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="391" FontSize="19" VerticalContentAlignment="Center" Background="White" Foreground="#FF0E0101"/>
+        <Button  x:Name ="bConnectDisconnect" Click="Button_Click" Content="Connect" HorizontalAlignment="Left" Margin="503,10,0,0" VerticalAlignment="Top" Width="239" Height="49" FontSize="19" Background="White" Foreground="#FF0E0101" HorizontalContentAlignment="Center"/>
+        <ListBox x:Name="listBoxChat" HorizontalAlignment="Left" Height="233" Margin="9,64,0,0" VerticalAlignment="Top" Width="733" FontSize="13" Background="White" Foreground="#FF0E0101" VerticalContentAlignment="Top"/>
+        <TextBox x:Name="textBoxMessage" HorizontalAlignment="Left" Height="89" Margin="9,302,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="733" KeyDown="textBoxMessage_KeyDown" FontSize="14" Background="White" Foreground="#FF0E0101"/>
 
     </Grid>
 </Window>
